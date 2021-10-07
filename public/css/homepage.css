@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap");
+
+:root {
+    --primary: #f64c41;
+    --primary-light: #f76157;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.top-nav-collapse {
+    background: var(--primary) !important;
+}
+
+header {
+    background: url("/images/hero.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: auto;
+}
+header nav {
+    box-shadow: none !important;
+}
+header nav .container .navbar-brand {
+    font-weight: 600;
+    color: #ffffff;
+}
+header nav .container .navbar-brand:hover {
+    color: var(--primary);
+}
+header .container main {
+    margin-top: 150px;
+}
+header .container main a {
+    margin-bottom: 150px;
+    background: var(--primary);
+    box-shadow: none;
+}
+header .container main a:hover {
+    background: var(--primary-light);
+    box-shadow: none;
+    color: #ffffff;
+}
+.section1 .card {
+    box-shadow: none !important;
+    border-radius: 0;
+}
+.section1 .first-line {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-left: 5px solid var(--primary);
+}
+.section1 .second-line {
+    margin: 50px 35px;
+    border-left: 3px solid var(--primary);
+    padding: 30px;
+    text-align: center;
+}
+.section1 .second-line h5 {
+    font-weight: 400;
+    color: #616060;
+}
+.section1 .second-line p {
+    color: #828080;
+}
+/* section2 */
+.section2 .card {
+    box-shadow: none !important;
+    border-radius: 0;
+}
+.section2 .first-line {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-left: 4px solid var(--primary);
+}
+.section2 .second-line {
+    margin: 20px 10px;
+    border-left: 2px solid var(--primary);
+    padding: 10px;
+}
+.section2 .second-line h5 {
+    font-weight: 400;
+    color: #616060;
+}
+.section2 .images {
+    text-align: center !important;
+}
+.section2 .images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section2 .images img {
+    width: 70%;
+    text-align: center;
+}
+.section3 {
+    background: var(--primary);
+    padding: 40px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section3 .container .col-lg-6 h1 {
+    color: #000000;
+}
+.section3 .container .col-lg-6 span {
+    color: #ffffff;
+}
+.section3 .container .col-lg-6 .follow i {
+    margin: 10px;
+    font-size: 50px;
+}
+footer {
+    background: var(--primary);
+}
+@media screen and (max-width: 575px) {
+    header .container h1{
+        font-size: 40px !important;
+    }
+    .section1 .second-line h5{
+        font-size: 15px !important;
+    }
+    .section1 .second-line p{
+        font-size: 13px !important;
+    }
+    .section2 .second-line h5{
+        font-size: 13px !important;
+    }
+    .section2 img{
+        margin: 15px;
+    }
+    .section3 h5{
+        font-size: 15px !important;
+    }
+    .section3 h1{
+        font-size: 30px !important;
+    }
+    .section3 .follow i{
+        font-size: 25px !important;
+    }
+}

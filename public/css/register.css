@@ -1,0 +1,41 @@
+:root {
+    --primary: #f64c41;
+    --primary-light: #f76157;
+}
+
+
+.column1,
+.column2 {
+    height: 100vh;
+}
+.column2{
+    background: var(--primary);
+    color: #ffffff !important;
+}
+.column2 .content form {
+    width: 300px !important;
+}
+.column2 .content form input{
+    width: 300px !important;
+    border-radius: 0;
+}
+.column2 .content input:focus{
+    border-bottom: 1px solid  #ffffff !important;
+    box-shadow: 0 1px 0 0 #ffffff !important;
+}
+.column2 label {
+    color: #ffffff !important;
+}
+.column2 .content form button{
+    background: none;
+    box-shadow: none;
+    border: 1px solid #ffffff;
+    border-radius: 25px;
+    color: #ffffff !important;
+}
+
+@media screen and (max-width: 575px) {
+    .column1 {
+        display: none !important;
+    }
+}
